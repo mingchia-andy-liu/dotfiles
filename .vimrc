@@ -10,26 +10,17 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-
 Plugin 'scrooloose/nerdtree'
-
 Plugin 'scwood/vim-hybrid'
-
 Plugin 'yggdroot/indentline'
-
 Plugin 'airblade/vim-gitgutter'
-
 Plugin 'bronson/vim-trailing-whitespace'
-
 Plugin 'dracula/vim'
-
 Plugin 'tpope/vim-commentary'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-
-
 
 " General
 syntax on
@@ -58,14 +49,12 @@ set smarttab
 set expandtab
 set tabstop=4
 set softtabstop=4
-
 filetype plugin on
 filetype indent on
 
 " Display tabs and trailing spaces visually
 set list
 set listchars=tab:>-
-
 set wrap            "Wrap lines
 set linebreak       "Wrap lines at convenient points
 
@@ -73,9 +62,6 @@ set linebreak       "Wrap lines at convenient points
 set scrolloff=8         "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
-
-" GitGutter
-set signcolumn=yes
 
 " Nerdtree binding
 map <C-n> :NERDTreeToggle<CR>
