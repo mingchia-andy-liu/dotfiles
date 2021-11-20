@@ -45,5 +45,6 @@ brew install --cask visual-studio-code
 
 1. dotfiles
 1. iTerm2 -> Preferences -> Profile -> Keys -> Key mapping -> Presets -> Natural text editing
-1. 
+1. git `git config --global user.email "name@example.com"`
+1. git `git config --global user.name "name"`
 
