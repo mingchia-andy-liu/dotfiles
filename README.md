@@ -13,7 +13,8 @@ Accessibility
 1. Pointer Control -> Trackpad Options -> Check "Enable dragging" -> three finger drag
 
 Keyboard
-1. Modifier Keys -> swap command and alt on wired keyboard
+1. Keyboard -> Modifier Keys -> swap command and alt on wired keyboard
+1. Shortcuts -> Input sources -> "Select the previous input source"
 
 
 ### App Installs
@@ -44,5 +45,5 @@ brew install --cask visual-studio-code
 
 1. dotfiles
 1. iTerm2 -> Preferences -> Profile -> Keys -> Key mapping -> Presets -> Natural text editing
-
+1. 
 
